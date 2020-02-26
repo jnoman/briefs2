@@ -204,7 +204,7 @@ function c1(i) {
     </table>`;
     var div = document.createElement('div');
     div.setAttribute("class", "form_reservation");
-    div.innerHTML = htmlString.trim();
+    div.innerHTML = htmlString;
     document.getElementsByClassName("slide_produit")[i].after(div);
     var btn_reserve=document.getElementsByClassName("btn_reserve");
     var slid1=document.getElementsByClassName("slid-1");
